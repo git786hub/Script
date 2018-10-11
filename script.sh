@@ -1,4 +1,5 @@
 #!/bin/bash
+cd
 sudo yum install -y docker
  sudo service docker start
   sudo docker pull apulkit21/jpetstore:2
@@ -16,7 +17,8 @@ cd /tmp/zyz/
 cd
  git clone https://github.com/git786hub/Demo_QA.git
  cd /home/ec2-user/Demo_QA/src/test/resources
- sed -r 's/(\b[0-9]{1,3}\.){3}[0-9]{1,3}\b'/$var/ config.properites> ./temp.txt mv temp.txt config.properites
+ sed -r 's/(\b[0-9]{1,3}\.){3}[0-9]{1,3}\b'/$var/ config.properites> ./temp.txt
+ mv temp.txt config.properites
  cd /home/ec2-user/Demo_QA
  git add *
  git commit -m 'changed'
