@@ -1,5 +1,5 @@
 #!/bin/bash
-cd
+cd ~
 sudo yum install -y docker
  sudo service docker start
   sudo docker pull apulkit21/jpetstore:2
@@ -14,7 +14,7 @@ git remote add origin4 https://DEVIKA1308:Radhika24devika@github.com/DEVIKA1308/
  git push origin4 master -f
 cd /tmp/zyz/
  var=$(<test.txt)
-cd
+cd ~
  git clone https://github.com/git786hub/Demo_QA.git
  cd /home/ec2-user/Demo_QA/src/test/resources
  sed -r 's/(\b[0-9]{1,3}\.){3}[0-9]{1,3}\b'/$var/ config.properites> ./temp.txt
