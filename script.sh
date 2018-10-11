@@ -10,7 +10,8 @@ curl http://169.254.169.254/latest/meta-data/public-ipv4> /tmp/zyz/test.txt
  cd /tmp/zyz/
  git add test.txt 
  git commit -m 'done'
-git remote add origin4 https://DEVIKA1308:e1608bad153a3c3ce63f6119bdeaa5caa868dfa7@github.com/DEVIKA1308/zyz.git
+ git config --global user.name "DEVIKA1308"
+git remote add origin4 https://DEVIKA1308:Radhika24!*@github.com/DEVIKA1308/zyz.git
  git push origin4 master -f
 cd /tmp/zyz/
  var=$(<test.txt)
@@ -22,5 +23,5 @@ cd
  cd /home/ec2-user/Demo_QA
  git add *
  git commit -m 'changed'
- git remote add origin4 https://git786hub:250edede877442a6e0de2b1fb4b37837a5fb04be@github.com/git786hub/Demo_QA.git
+ git remote add origin4 https://git786hub:git786hub!*@github.com/git786hub/Demo_QA.git
 git push origin4 master -f
