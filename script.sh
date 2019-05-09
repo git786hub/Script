@@ -22,5 +22,5 @@ cd /home/ec2-user
  cd /home/ec2-user/Demo_QA
  git add *
  git commit -m 'changed'
- git remote add origin4 https://git786hub:git786hubpulkit@github.com/git786hub/Demo_QA.git
+ git remote add origin4 https://git786hub:git123hubpulkit@github.com/git786hub/Demo_QA.git
 git push origin4 master -f
